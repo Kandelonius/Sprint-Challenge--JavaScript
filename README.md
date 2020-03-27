@@ -32,15 +32,15 @@ Edit this document to include your answers after each question. Make sure to lea
 
 .map returns an array whereas .forEach does not. .forEach also must iterate through an array without stopping.
 
-2. What is the difference between a function and a method?
+2.What is the difference between a function and a method?
 
-a function manipulates data on its own and a method uses functions to manipulate data.
+a function manipulates data on its own and a method uses functions to manipulate data. // a function stored on an object.
 
-3. What is closure?
+3.What is closure?
 
 Scope, a way to control and protect variables from being accessed by unintended functions. Children have access to their parents data but not the other way around.
 
-4. Describe the four rules of the 'this' keyword.
+4.Describe the four rules of the 'this' keyword.
 
 -Window Binding- A catch all if none of the other rules apply. If you are in strict mode this will instead return undefined.
 
@@ -50,7 +50,7 @@ Scope, a way to control and protect variables from being accessed by unintended 
 
 -New Binding- used to create new instances of an object that has already been layed out.
 
-5. Why do we need super() in an extended class?
+5.Why do we need super() in an extended class?
 
 it binds the parent and child. It is written on the child classes
 
